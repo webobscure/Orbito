@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C6A000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A000000000000000000101;
+			remoteInfo = Orbito;
+		};
+		C6A000000000000000000302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A000000000000000000101;
+			remoteInfo = Orbito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A000000000000000000011 /* Orbito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A000000000000000000012 /* OrbitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A000000000000000000013 /* OrbitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C6A000000000000000000021 /* Orbito */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Orbito;
+			sourceTree = "<group>";
+		};
+		C6A000000000000000000022 /* OrbitoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrbitoTests;
+			sourceTree = "<group>";
+		};
+		C6A000000000000000000023 /* OrbitoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrbitoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A000000000000000000221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				C6A000000000000000000021 /* Orbito */,
+				C6A000000000000000000022 /* OrbitoTests */,
+				C6A000000000000000000023 /* OrbitoUITests */,
+				C6A000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A000000000000000000011 /* Orbito.app */,
+				C6A000000000000000000012 /* OrbitoTests.xctest */,
+				C6A000000000000000000013 /* OrbitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A000000000000000000103 /* OrbitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A000000000000000000504 /* Build configuration list for PBXNativeTarget "OrbitoUITests" */;
+			buildPhases = (
+				C6A000000000000000000220 /* Sources */,
+				C6A000000000000000000221 /* Frameworks */,
+				C6A000000000000000000222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A000000000000000000402 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6A000000000000000000023 /* OrbitoUITests */,
+			);
+			name = OrbitoUITests;
+			packageProductDependencies = (
+			);
+			productName = OrbitoUITests;
+			productReference = C6A000000000000000000013 /* OrbitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C6A000000000000000000101 /* Orbito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A000000000000000000502 /* Build configuration list for PBXNativeTarget "Orbito" */;
+			buildPhases = (
+				C6A000000000000000000200 /* Sources */,
+				C6A000000000000000000201 /* Frameworks */,
+				C6A000000000000000000202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C6A000000000000000000021 /* Orbito */,
+			);
+			name = Orbito;
+			packageProductDependencies = (
+			);
+			productName = Orbito;
+			productReference = C6A000000000000000000011 /* Orbito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A000000000000000000102 /* OrbitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A000000000000000000503 /* Build configuration list for PBXNativeTarget "OrbitoTests" */;
+			buildPhases = (
+				C6A000000000000000000210 /* Sources */,
+				C6A000000000000000000211 /* Frameworks */,
+				C6A000000000000000000212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A000000000000000000401 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6A000000000000000000022 /* OrbitoTests */,
+			);
+			name = OrbitoTests;
+			packageProductDependencies = (
+			);
+			productName = OrbitoTests;
+			productReference = C6A000000000000000000012 /* OrbitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					C6A000000000000000000101 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					C6A000000000000000000102 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = C6A000000000000000000101;
+					};
+					C6A000000000000000000103 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = C6A000000000000000000101;
+					};
+				};
+			};
+			buildConfigurationList = C6A000000000000000000501 /* Build configuration list for PBXProject "Orbito" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				en,
+				Base,
+			);
+			mainGroup = C6A000000000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6A000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A000000000000000000101 /* Orbito */,
+				C6A000000000000000000102 /* OrbitoTests */,
+				C6A000000000000000000103 /* OrbitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A000000000000000000222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A000000000000000000220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A000000000000000000210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A000000000000000000402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A000000000000000000101 /* Orbito */;
+			targetProxy = C6A000000000000000000302 /* PBXContainerItemProxy */;
+		};
+		C6A000000000000000000401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A000000000000000000101 /* Orbito */;
+			targetProxy = C6A000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6A000000000000000000631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.OrbitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Orbito;
+			};
+			name = Debug;
+		};
+		C6A000000000000000000632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.OrbitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Orbito;
+			};
+			name = Release;
+		};
+		C6A000000000000000000601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C6A000000000000000000602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C6A000000000000000000611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Orbito;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.Orbito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C6A000000000000000000612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Orbito;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.Orbito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C6A000000000000000000621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.OrbitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbito.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbito";
+			};
+			name = Debug;
+		};
+		C6A000000000000000000622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.orbito.OrbitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbito.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbito";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A000000000000000000504 /* Build configuration list for PBXNativeTarget "OrbitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A000000000000000000631 /* Debug */,
+				C6A000000000000000000632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A000000000000000000501 /* Build configuration list for PBXProject "Orbito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A000000000000000000601 /* Debug */,
+				C6A000000000000000000602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A000000000000000000502 /* Build configuration list for PBXNativeTarget "Orbito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A000000000000000000611 /* Debug */,
+				C6A000000000000000000612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A000000000000000000503 /* Build configuration list for PBXNativeTarget "OrbitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A000000000000000000621 /* Debug */,
+				C6A000000000000000000622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A000000000000000000001 /* Project object */;
+}
